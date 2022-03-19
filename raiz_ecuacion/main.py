@@ -12,7 +12,7 @@ from prettytable import PrettyTable
 def main():
     table = PrettyTable()
     table2 = PrettyTable()
-    a = 1.; b = -5000.002; c = 10.
+    a = 1.; b = -50; c = 10.
 
     raiz = math.sqrt(math.pow(b, 2) - 4 * (a * c))
 
