@@ -21,8 +21,17 @@ def main():
 
     b = np.array([-2, 0, 8])
 
-    vector = cramer(M, b, 3)
-    print("\nx: {}\ny: {}\nz: {}".format(vector[0], vector[1], vector[2]))
+    B = np.array([
+        [0.1, -0.6, 1, -1],
+        [-2, 0.3, -4, 0.1],
+        [1, 0.5, 0.1, -0.3],
+        [0.5, -0.3, 0.6, 0.7]
+    ], dtype='float64')
+
+    b2 = np.array([1, 0, 1, 1])
+
+    vector = cramer(B, b2, 4)
+    print("\nx1: {}\nx2: {}\nx3: {}\nx4: {}".format(vector[0], vector[1], vector[2], vector[3]))
 
 
 if __name__ == '__main__':

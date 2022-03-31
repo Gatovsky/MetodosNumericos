@@ -19,6 +19,7 @@ def krylov(A, y):
     A2y = np.dot(A, Ay)
     A3y = np.dot(A, A2y)
     A4y = np.dot(A, A3y)
+    #A5y = np.dot(A, A4y)
 
     # -A^(n)y
     b = np.dot(A4y, -1)
@@ -30,11 +31,13 @@ def krylov(A, y):
     print("Ay = \n", Ay)
     print("A²y = \n", A2y)
     print("A³y = \n", A3y)
+    #print("A⁴y = \n", A4y)
+    #print("A⁴y = \n", A5y)
 
     print("b = \n", b)
     print("M = \n", M)
 
-    print("λ⁴ {:+.4f}λ³ {:+.4f}λ² {:+.4f}λ {:+.4f}".format(x[0], x[1], x[2], x[3]))
+    print("λ⁴ {:+.6f}λ³ {:+.6f}λ² {:+.6f}λ {:+.6f}".format(x[0], x[1], x[2], x[3]))
 
 
 def main():
@@ -47,7 +50,19 @@ def main():
 
     y = np.array([1, 0, 0, 0])
 
+    B = np.array([
+        [-1, 2, 2, 1, -2],
+        [3, -6, -1, 5, -4],
+        [2, -4, -1.5, 2, -1],
+        [1, -2, 1, 1, 1],
+        [5, 3, -1, -2, -2]
+    ], dtype='float64')
+
+    b = np.array([2, 1, -0.5, 1, 0])
+
     krylov(matriz, y)
+
+    # krylov(B, b)
 
 
 if __name__ == '__main__':

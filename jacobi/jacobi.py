@@ -63,7 +63,7 @@ def main():
     x0 = np.random.rand(3)
     x = jacobi(matriz, b, x0, 1e-4, 30)
 
-    print("b calculado: ", np.dot(matriz, x))
+    print("b calculado: ", np.dot(B, x))
     print("b verdadero: ", b)
     print("x1= {}  x2= {}  x3= {}".format(x[0], x[1], x[2]))
 

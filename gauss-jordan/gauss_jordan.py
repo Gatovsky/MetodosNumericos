@@ -1,15 +1,7 @@
 import numpy as np
 
 
-def gauss_jordan(n):
-    matriz = np.zeros((n, n+1), dtype=float)
-
-    # llenar matriz
-    for i in range(0, n):
-        for j in range(0, n+1):
-            num = int(input("valor: "))
-            matriz[i][j] = num
-
+def gauss_jordan(matriz, n):
     # Elminación gauss jordan
     for i in range(0, n):
         if matriz[i][i] == 0:
@@ -24,7 +16,12 @@ def gauss_jordan(n):
 
     # calcular x, y, z
     for i in range(0, n):
-        matriz[i][n] = matriz[i][n] / matriz[i][i]
+        with np.errstate(divide='raise'):
+            try:
+                matriz[i][n] = matriz[i][n] / matriz[i][i]
+            except FloatingPointError:
+                matriz[i][n] = 0
+
         matriz[i][i] = 1
 
     print('\n'.join(['   '.join(['{:6}'.format(col) for col in fil]) for fil in matriz ]))
@@ -32,14 +29,21 @@ def gauss_jordan(n):
 
 
 def main():
+    A = np.array([[70, 1, 0, 636],
+                  [60, -1, 1, 518],
+                  [40, 0, -1, 307]], dtype='float64')
 
-    """lst = input("ns: ").split(" ")
-    int_lst = list(map(int, lst))
-    print(int_lst)"""
+    B = np.array([
+        [0.1, -0.6, 1, -1, 1],
+        [-2, 0.3, -4, 0.1, 0],
+        [1, 0.5, 0.1, -0.3, 1],
+        [0.5, -0.3, 0.6, 0.7, -1]
+    ], dtype='float64')
 
-    m = gauss_jordan(3)
+    # m = gauss_jordan(A, 3)
+    m2 = gauss_jordan(B, 4)
 
-    print("x: {}\ny: {}\nz: {}".format(m[0][3], m[1][3], m[2][3]))
+    print("\nx1: {}\nx2: {}\nx3: {}\nx4: {}".format(m2[0][4], m2[1][4], m2[2][4], m2[3][4]))
 
 
 if __name__ == '__main__':

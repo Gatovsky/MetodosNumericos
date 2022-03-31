@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="228e0d73-6262-4a2d-b844-f50cb10686e0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../LU/.idea/LU.iml" afterDir="false" />
+    <list default="true" id="a8e0f341-a82c-484a-9656-1ba7bd40a3a9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/LU.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../ejemplos_aplicados/.idea/ejemplos_aplicados.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gauss-jordan.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gauss-jordan.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gauss_jordan.py" beforeDir="false" afterPath="$PROJECT_DIR$/gauss_jordan.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gauss-jordan/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gauss-jordan/.idea/gauss-jordan.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../gauss-jordan/.idea/gauss-jordan.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gauss-jordan/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../gauss-jordan/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gauss-jordan/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../gauss-jordan/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gauss-jordan/gauss_jordan.py" beforeDir="false" afterPath="$PROJECT_DIR$/../gauss-jordan/gauss_jordan.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../graph_root_cramer/cramer.py" beforeDir="false" afterPath="$PROJECT_DIR$/../graph_root_cramer/cramer.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../graph_root_cramer/eliminacion_gauss.py" beforeDir="false" afterPath="$PROJECT_DIR$/../graph_root_cramer/eliminacion_gauss.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../graph_root_cramer/m_grafico.py" beforeDir="false" afterPath="$PROJECT_DIR$/../graph_root_cramer/m_grafico.py" afterDir="false" />
@@ -30,7 +30,6 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
-        <option value="R Script" />
       </list>
     </option>
   </component>
@@ -40,8 +39,10 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="25ieOBfHpYc8rU3TfBdHhrpX2cu" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="26cXO46KqNTDnBwCCNmRHfn73H9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -49,18 +50,15 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager">
-    <configuration name="gauss_jordan" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="gauss-jordan" />
+    <configuration name="lu_gauss" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="LU" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -72,7 +70,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gauss_jordan.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lu_gauss.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -83,60 +81,42 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.gauss_jordan" />
+        <item itemvalue="Python.lu_gauss" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="228e0d73-6262-4a2d-b844-f50cb10686e0" name="Changes" comment="" />
-      <created>1646014300106</created>
+      <changelist id="a8e0f341-a82c-484a-9656-1ba7bd40a3a9" name="Changes" comment="" />
+      <created>1647723813042</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1646014300106</updated>
-      <workItem from="1646014301195" duration="3223000" />
-      <workItem from="1646017787482" duration="11453000" />
-      <workItem from="1646046647327" duration="369000" />
-      <workItem from="1646257519433" duration="78000" />
-      <workItem from="1646636440691" duration="132000" />
-      <workItem from="1646647115308" duration="976000" />
-      <workItem from="1646808011401" duration="1506000" />
-      <workItem from="1647742152446" duration="1048000" />
-      <workItem from="1648482957260" duration="1031000" />
-      <workItem from="1648491060620" duration="2852000" />
-      <workItem from="1648498995141" duration="1416000" />
-      <workItem from="1648532652239" duration="56000" />
-      <workItem from="1648653725460" duration="428000" />
+      <updated>1647723813042</updated>
+      <workItem from="1647723814108" duration="5738000" />
+      <workItem from="1647738460623" duration="3280000" />
+      <workItem from="1647745283332" duration="8582000" />
+      <workItem from="1647798313838" duration="3325000" />
+      <workItem from="1648482303727" duration="559000" />
+      <workItem from="1648654354773" duration="492000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/gauss_jordan.py</url>
-          <line>28</line>
-          <option name="timeStamp" value="1" />
+          <url>file://$PROJECT_DIR$/lu_gauss.py</url>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/gauss_jordan$gauss_jordan.coverage" NAME="gauss_jordan Coverage Results" MODIFIED="1648653799869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LU$lu.coverage" NAME="lu_gauss Coverage Results" MODIFIED="1647753261370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LU$lu_gauss.coverage" NAME="lu_gauss Coverage Results" MODIFIED="1648654430936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

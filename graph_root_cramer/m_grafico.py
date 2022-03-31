@@ -5,7 +5,7 @@ from matplotlib import cm
 from mpl_toolkits.mplot3d import Axes3D
 
 
-def sistema(M, b, eps=1e-12, n=500):
+def sistema(M, b, eps=1e-21, n=1000):
     x = M
     for i in range(n):
         x_anterior = x
@@ -62,10 +62,24 @@ def main():
 
     b = np.array([1, 5, 8])
 
-    vector = sistema(M, b)
-    print(vector)
+    # vector = sistema(M, b)
+    # print(vector)
 
-    graph3d(vector)
+    # graph3d(vector)
+
+    B = np.array([
+        [-1, 2, 2, 1, -2],
+        [3, -6, -1, 5, -4],
+        [2, -4, -1.5, 2, -1],
+        [1, -2, 1, 1, 1],
+        [5, 3, -1, -2, -2]
+    ], dtype='float64')
+
+    b2 = np.array([2, 1, -0.5, 1, 0])
+
+    vector = sistema(B, b2)
+
+    print(vector)
 
 
 if __name__ == '__main__':

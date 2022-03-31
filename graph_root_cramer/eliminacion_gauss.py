@@ -26,8 +26,17 @@ def main():
                   [-1, 1, 1, 0],
                   [1, -2, 1, 8]], dtype='float64')
 
-    m = eliminacion(M, 3)
-    print("\nx: {}\ny: {}\nz: {}".format(m[0][3], m[1][3], m[2][3]))
+    B = np.array([
+        [0.1, -0.6, 1, -1, 1],
+        [-2, 0.3, -4, 0.1, 0],
+        [1, 0.5, 0.1, -0.3, 1],
+        [0.5, -0.3, 0.6, 0.7, -1]
+    ], dtype='float64')
+
+    #b = np.array([2, 1, -0.5, 1, 0])
+
+    m = eliminacion(B, 4)
+    print("\nx1: {}\nx2: {}\nx3: {}\nx4: {}".format(m[0][4], m[1][4], m[2][4], m[3][4]))
 
 
 if __name__ == '__main__':
