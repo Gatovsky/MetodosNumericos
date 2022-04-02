@@ -4,23 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e31e555-f32d-436f-b362-067b7e38a8cc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../LU/.idea/LU.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ejemplos_aplicados/.idea/ejemplos_aplicados.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gauss-jordan/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gauss-jordan/.idea/gauss-jordan.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../gauss-jordan/.idea/gauss-jordan.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gauss-jordan/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../gauss-jordan/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gauss-jordan/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../gauss-jordan/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gauss-jordan/gauss_jordan.py" beforeDir="false" afterPath="$PROJECT_DIR$/../gauss-jordan/gauss_jordan.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../graph_root_cramer/cramer.py" beforeDir="false" afterPath="$PROJECT_DIR$/../graph_root_cramer/cramer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../graph_root_cramer/eliminacion_gauss.py" beforeDir="false" afterPath="$PROJECT_DIR$/../graph_root_cramer/eliminacion_gauss.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../graph_root_cramer/m_grafico.py" beforeDir="false" afterPath="$PROJECT_DIR$/../graph_root_cramer/m_grafico.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jacobi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../jacobi/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jacobi/gaussidel.py" beforeDir="false" afterPath="$PROJECT_DIR$/../jacobi/gaussidel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jacobi/jacobi.py" beforeDir="false" afterPath="$PROJECT_DIR$/../jacobi/jacobi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../krylov/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../krylov/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../krylov/krylov.py" beforeDir="false" afterPath="$PROJECT_DIR$/../krylov/krylov.py" afterDir="false" />
-    </list>
+    <list default="true" id="2e31e555-f32d-436f-b362-067b7e38a8cc" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -178,6 +162,7 @@
       <workItem from="1648653111511" duration="23000" />
       <workItem from="1648654847568" duration="1265000" />
       <workItem from="1648668966409" duration="4000" />
+      <workItem from="1648701855122" duration="83000" />
     </task>
     <servers />
   </component>
