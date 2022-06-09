@@ -72,3 +72,20 @@ def grafica(xi, fi, p_xi, p_fi, polinomioSimple):
     legend.get_frame().set_facecolor('C2')
     plt.savefig("Lagrange_2.png")
     plt.show()
+
+
+def grafica2(x_list, y_list, punto_coordenado):
+    mpl.rcParams['figure.dpi'] = 150
+    mpl.rcParams['savefig.dpi'] = 200
+    fig, ax = plt.subplots()
+
+    plt.title("Interpolación de Newton", fontdict={'fontsize': 10, 'fontweight': 'bold', 'color': 'tab:blue'})
+    plt.xlabel("x")
+    plt.ylabel("y")
+
+    ax.scatter(x_list, y_list, color="purple", linewidths=2, label='xi , f(xi)')
+    ax.scatter(punto_coordenado[0], punto_coordenado[1], color="orange", linewidth=2, label='x = 0.55')
+    legend = ax.legend(loc='lower right', shadow=True, fontsize='x-large')
+    legend.get_frame().set_facecolor('C2')
+    ax.grid(True)
+    plt.show()

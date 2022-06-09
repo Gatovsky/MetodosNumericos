@@ -28,6 +28,8 @@ def interpolacionLagrange(xi, fi):
     p_xi = np.linspace(a, b, muestras)
     p_fi = px(p_xi)
 
+    print(p_xi, p_fi)
+
     grafica(xi, fi, p_xi, p_fi, polinomioSimple)
 
     print("\n polinomio= \n", polinomio)
@@ -36,7 +38,7 @@ def interpolacionLagrange(xi, fi):
 
 
 def main():
-    interpolacionLagrange(np.array([0.1, 0.4, 1.0, 1.3]), np.array([0.99750, 0.96040, 0.76520, 0.62009]))
+    interpolacionLagrange(np.array([0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8]), np.array([0, 2.12, 3.02, 3.25, 3.14, 2.85, 2.51, 2.16, 1.84]))
 
 
 if __name__ == '__main__':

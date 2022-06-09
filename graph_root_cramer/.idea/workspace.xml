@@ -5,21 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74024fc8-517e-483b-8887-c3e4f0645249" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../LU/.idea/LU.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ejemplos_aplicados/.idea/ejemplos_aplicados.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gauss-jordan/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gauss-jordan/.idea/gauss-jordan.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../gauss-jordan/.idea/gauss-jordan.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gauss-jordan/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../gauss-jordan/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gauss-jordan/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../gauss-jordan/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gauss-jordan/gauss_jordan.py" beforeDir="false" afterPath="$PROJECT_DIR$/../gauss-jordan/gauss_jordan.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cramer.py" beforeDir="false" afterPath="$PROJECT_DIR$/cramer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eliminacion_gauss.py" beforeDir="false" afterPath="$PROJECT_DIR$/eliminacion_gauss.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/m_grafico.py" beforeDir="false" afterPath="$PROJECT_DIR$/m_grafico.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jacobi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../jacobi/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jacobi/gaussidel.py" beforeDir="false" afterPath="$PROJECT_DIR$/../jacobi/gaussidel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jacobi/jacobi.py" beforeDir="false" afterPath="$PROJECT_DIR$/../jacobi/jacobi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../krylov/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../krylov/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../krylov/krylov.py" beforeDir="false" afterPath="$PROJECT_DIR$/../krylov/krylov.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/graph_root_cramer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/graph_root_cramer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,16 +42,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="PyScientificConfigurable" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/gatovsky/PycharmProjects/pythonInterpetre&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  }
+}</component>
   <component name="RunManager" selected="Python.cramer">
     <configuration name="cramer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="graph_root_cramer" />
@@ -135,8 +125,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.cramer" />
-        <item itemvalue="Python.eliminacion_gauss" />
         <item itemvalue="Python.m_grafico" />
+        <item itemvalue="Python.eliminacion_gauss" />
       </list>
     </recent_temporary>
   </component>
@@ -155,6 +145,9 @@
       <workItem from="1647719076457" duration="52000" />
       <workItem from="1648496994184" duration="2005000" />
       <workItem from="1648653135767" duration="588000" />
+      <workItem from="1650997103114" duration="598000" />
+      <workItem from="1650997731308" duration="321000" />
+      <workItem from="1650998127508" duration="419000" />
     </task>
     <servers />
   </component>
@@ -162,8 +155,8 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/graph_root_cramer$m_grafico.coverage" NAME="m_grafico Coverage Results" MODIFIED="1648498790184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/graph_root_cramer$cramer.coverage" NAME="cramer Coverage Results" MODIFIED="1650998394937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/graph_root_cramer$eliminacion_gauss.coverage" NAME="eliminacion_gauss Coverage Results" MODIFIED="1648653403659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/graph_root_cramer$cramer.coverage" NAME="cramer Coverage Results" MODIFIED="1648653633167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/graph_root_cramer$m_grafico.coverage" NAME="m_grafico Coverage Results" MODIFIED="1650998321510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

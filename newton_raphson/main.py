@@ -6,7 +6,8 @@ import grafica
 x = sp.symbols('x')
 #f = sp.exp(-x)-x
 #f = -x**2 - 1.8 * x + 2.5
-f = x**3 + 2 * x**2 + 10 * x - 20
+#f = x**3 + 2 * x**2 + 10 * x - 20
+f = 2 * x**3 - 3 * x**2 + x - 1
 
 
 def newtho_raphson(x0, es, imax, it, ea):
@@ -58,7 +59,7 @@ def comprobacion(xr):
 
 
 def main():
-    xr = newtho_raphson(24.6162, 1e-2, 5, 0, 100)
+    xr = newtho_raphson(1, 1e-2, 5, 0, 100)
     grafica.grafica(xr)
 
 

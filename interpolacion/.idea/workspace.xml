@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e31e555-f32d-436f-b362-067b7e38a8cc" name="Changes" comment="" />
+    <list default="true" id="2e31e555-f32d-436f-b362-067b7e38a8cc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../derivación numérica/Taylor/.idea/Taylor.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../newton_raphson/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graph_root_cramer/.idea/graph_root_cramer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../graph_root_cramer/.idea/graph_root_cramer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graph_root_cramer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../graph_root_cramer/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/interpolacion.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/interpolacion.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grafica.py" beforeDir="false" afterPath="$PROJECT_DIR$/grafica.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interpolacionLagrange.py" beforeDir="false" afterPath="$PROJECT_DIR$/interpolacionLagrange.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../newton_raphson/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../newton_raphson/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../newton_raphson/Examen1.png" beforeDir="false" afterPath="$PROJECT_DIR$/../newton_raphson/Examen1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../newton_raphson/grafica.py" beforeDir="false" afterPath="$PROJECT_DIR$/../newton_raphson/grafica.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../newton_raphson/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../newton_raphson/main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,15 +54,18 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/gatovsky/MetodosNumericos/interpolacion",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)"
+  }
+}]]></component>
   <component name="RunManager" selected="Python.interpolacionLagrange">
     <configuration name="grafica" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="interpolacion" />
@@ -101,9 +118,9 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="$PROJECT_DIR$/../graph_root_cramer/venv/bin/python" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
@@ -141,8 +158,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.interpolacionLagrange" />
-        <item itemvalue="Python.interpolacioncuadrática" />
         <item itemvalue="Python.grafica" />
+        <item itemvalue="Python.interpolacioncuadrática" />
         <item itemvalue="Python.interpolacion" />
       </list>
     </recent_temporary>
@@ -163,32 +180,17 @@
       <workItem from="1648654847568" duration="1265000" />
       <workItem from="1648668966409" duration="4000" />
       <workItem from="1648701855122" duration="83000" />
+      <workItem from="1651199334923" duration="9235000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/interpolacionLagrange.py</url>
-          <line>17</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/interpolacionLagrange.py</url>
-          <line>28</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/interpolacion$interpolacion.coverage" NAME="interpolacion Coverage Results" MODIFIED="1648617055195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/interpolacion$interpolacionLagrange.coverage" NAME="interpolacionLagrange Coverage Results" MODIFIED="1648655730114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/interpolacion$interpolacioncuadrática.coverage" NAME="interpolacioncuadrática Coverage Results" MODIFIED="1648655542413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/interpolacion$grafica.coverage" NAME="grafica Coverage Results" MODIFIED="1648624994013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/interpolacion$grafica.coverage" NAME="grafica Coverage Results" MODIFIED="1651205839240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/interpolacion$interpolacionLagrange.coverage" NAME="interpolacionLagrange Coverage Results" MODIFIED="1651209187187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
